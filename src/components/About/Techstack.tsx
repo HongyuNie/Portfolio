@@ -19,7 +19,7 @@ import {
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
-function Techstack() {
+const Techstack: React.FC = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
@@ -68,4 +68,4 @@ function Techstack() {
   );
 }
 
-export default Techstack;
+export default Techstack; 

@@ -7,7 +7,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
-function About() {
+const About: React.FC = () => {
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -51,4 +51,4 @@ function About() {
   );
 }
 
-export default About;
+export default About; 

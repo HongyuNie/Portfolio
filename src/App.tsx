@@ -17,8 +17,8 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
-  const [load, upadateLoad] = useState(true);
+const App: React.FC = () => {
+  const [load, upadateLoad] = useState<boolean>(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -47,4 +47,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 

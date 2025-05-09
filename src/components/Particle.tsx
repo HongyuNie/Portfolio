@@ -1,11 +1,11 @@
 import React from "react";
 import Particles from "react-tsparticles";
 
-function Particle() {
+const Particle: React.FC = () => {
   return (
     <Particles
       id="tsparticles"
-      params={{
+      options={{
         particles: {
           number: {
             value: 160,
@@ -52,4 +52,4 @@ function Particle() {
   );
 }
 
-export default Particle;
+export default Particle; 
