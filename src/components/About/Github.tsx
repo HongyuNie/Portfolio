@@ -12,7 +12,10 @@ const Github: React.FC = () => {
         username="soumyajit4419"
         blockSize={15}
         blockMargin={5}
-        color="#c084f5"
+        theme={{
+          light: ['#ebedf0', '#c084f5', '#c084f5', '#c084f5', '#c084f5'],
+          dark: ['#ebedf0', '#c084f5', '#c084f5', '#c084f5', '#c084f5']
+        }}
         fontSize={16}
       />
     </Row>
